@@ -1,0 +1,10 @@
+if HAVE_LIBSDL
+SDLDIR = sdl
+endif
+
+if HAVE_LIBXML2
+DEMETERDIR = demeter
+endif
+
+SUBDIRS = $(SDLDIR) $(DEMETERDIR)
+

@@ -1,0 +1,1481 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Demeter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPD7.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TERRAIN_EXPORTS" /D "_PROTECT_ACCESS_" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\Brush.cpp"
+"C:\poop\demeter\src\DemeterEntryPoint.cpp"
+"C:\poop\demeter\src\DetailTexture.cpp"
+"C:\poop\demeter\src\Globals.cpp"
+"C:\poop\demeter\src\Loader.cpp"
+"C:\poop\demeter\src\Plane.cpp"
+"C:\poop\demeter\src\Settings.cpp"
+"C:\poop\demeter\src\SkyBox.cpp"
+"C:\poop\demeter\src\StdAfx.cpp"
+"C:\poop\demeter\src\Terrain.cpp"
+"C:\poop\demeter\src\TerrainBlock.cpp"
+"C:\poop\demeter\src\TerrainLattice.cpp"
+"C:\poop\demeter\src\TerrainVertex.cpp"
+"C:\poop\demeter\src\Texture.cpp"
+"C:\poop\demeter\src\TextureCell.cpp"
+"C:\poop\demeter\src\TextureFactory.cpp"
+"C:\poop\demeter\src\TextureGenerator.cpp"
+"C:\poop\demeter\src\TextureSet.cpp"
+"C:\poop\demeter\src\Triangle.cpp"
+"C:\poop\demeter\src\TriangleFan.cpp"
+"C:\poop\demeter\src\TriangleStrip.cpp"
+"C:\poop\demeter\src\Vector.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPD7.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPD8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib /nologo /dll /incremental:no /pdb:"Release/Demeter.pdb" /machine:I386 /out:"../bin/Demeter.dll" /implib:"../lib/Demeter.lib" /libpath:"../lib" 
+.\Release\Brush.obj
+.\Release\DemeterEntryPoint.obj
+.\Release\DetailTexture.obj
+.\Release\Globals.obj
+.\Release\Loader.obj
+.\Release\Plane.obj
+.\Release\Settings.obj
+.\Release\SkyBox.obj
+.\Release\StdAfx.obj
+.\Release\Terrain.obj
+.\Release\TerrainBlock.obj
+.\Release\TerrainLattice.obj
+.\Release\TerrainVertex.obj
+.\Release\Texture.obj
+.\Release\TextureCell.obj
+.\Release\TextureFactory.obj
+.\Release\TextureGenerator.obj
+.\Release\TextureSet.obj
+.\Release\Triangle.obj
+.\Release\TriangleFan.obj
+.\Release\TriangleStrip.obj
+.\Release\Vector.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPD8.tmp"
+<h3>Output Window</h3>
+Compiling...
+Brush.cpp
+DemeterEntryPoint.cpp
+DetailTexture.cpp
+Globals.cpp
+Loader.cpp
+Plane.cpp
+Settings.cpp
+SkyBox.cpp
+StdAfx.cpp
+Terrain.cpp
+C:\poop\demeter\src\Terrain.cpp(1705) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+TerrainBlock.cpp
+TerrainLattice.cpp
+TerrainVertex.cpp
+Texture.cpp
+TextureCell.cpp
+TextureFactory.cpp
+TextureGenerator.cpp
+TextureSet.cpp
+Triangle.cpp
+TriangleFan.cpp
+Generating Code...
+Compiling...
+TriangleStrip.cpp
+Vector.cpp
+Generating Code...
+Linking...
+   Creating library ../lib/Demeter.lib and object ../lib/Demeter.exp
+
+
+
+<h3>Results</h3>
+Demeter.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: Demeter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPDC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TERRAIN_EXPORTS" /D "_PROTECT_ACCESS_" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\Brush.cpp"
+"C:\poop\demeter\src\DemeterEntryPoint.cpp"
+"C:\poop\demeter\src\DetailTexture.cpp"
+"C:\poop\demeter\src\Globals.cpp"
+"C:\poop\demeter\src\Loader.cpp"
+"C:\poop\demeter\src\Plane.cpp"
+"C:\poop\demeter\src\Settings.cpp"
+"C:\poop\demeter\src\SkyBox.cpp"
+"C:\poop\demeter\src\StdAfx.cpp"
+"C:\poop\demeter\src\Terrain.cpp"
+"C:\poop\demeter\src\TerrainBlock.cpp"
+"C:\poop\demeter\src\TerrainLattice.cpp"
+"C:\poop\demeter\src\TerrainVertex.cpp"
+"C:\poop\demeter\src\Texture.cpp"
+"C:\poop\demeter\src\TextureCell.cpp"
+"C:\poop\demeter\src\TextureFactory.cpp"
+"C:\poop\demeter\src\TextureGenerator.cpp"
+"C:\poop\demeter\src\TextureSet.cpp"
+"C:\poop\demeter\src\Triangle.cpp"
+"C:\poop\demeter\src\TriangleFan.cpp"
+"C:\poop\demeter\src\TriangleStrip.cpp"
+"C:\poop\demeter\src\Vector.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPDC.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPDD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib /nologo /dll /incremental:yes /pdb:"Debug/DemeterDebug.pdb" /debug /machine:I386 /out:"../bin/DemeterDebug.dll" /implib:"../lib/DemeterDebug.lib" /pdbtype:sept 
+.\Debug\Brush.obj
+.\Debug\DemeterEntryPoint.obj
+.\Debug\DetailTexture.obj
+.\Debug\Globals.obj
+.\Debug\Loader.obj
+.\Debug\Plane.obj
+.\Debug\Settings.obj
+.\Debug\SkyBox.obj
+.\Debug\StdAfx.obj
+.\Debug\Terrain.obj
+.\Debug\TerrainBlock.obj
+.\Debug\TerrainLattice.obj
+.\Debug\TerrainVertex.obj
+.\Debug\Texture.obj
+.\Debug\TextureCell.obj
+.\Debug\TextureFactory.obj
+.\Debug\TextureGenerator.obj
+.\Debug\TextureSet.obj
+.\Debug\Triangle.obj
+.\Debug\TriangleFan.obj
+.\Debug\TriangleStrip.obj
+.\Debug\Vector.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPDD.tmp"
+<h3>Output Window</h3>
+Compiling...
+Brush.cpp
+DemeterEntryPoint.cpp
+DetailTexture.cpp
+Globals.cpp
+Loader.cpp
+Plane.cpp
+Settings.cpp
+SkyBox.cpp
+StdAfx.cpp
+Terrain.cpp
+c:\poop\demeter\src\terrain.cpp(1705) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+TerrainBlock.cpp
+TerrainLattice.cpp
+TerrainVertex.cpp
+Texture.cpp
+TextureCell.cpp
+TextureFactory.cpp
+TextureGenerator.cpp
+TextureSet.cpp
+Triangle.cpp
+TriangleFan.cpp
+Generating Code...
+Compiling...
+TriangleStrip.cpp
+Vector.cpp
+Generating Code...
+Linking...
+   Creating library ../lib/DemeterDebug.lib and object ../lib/DemeterDebug.exp
+
+
+
+<h3>Results</h3>
+DemeterDebug.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: Demeter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPE1.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TERRAIN_EXPORTS" /D "_PROTECT_ACCESS_" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\Brush.cpp"
+"C:\poop\demeter\src\DemeterEntryPoint.cpp"
+"C:\poop\demeter\src\DetailTexture.cpp"
+"C:\poop\demeter\src\Globals.cpp"
+"C:\poop\demeter\src\Loader.cpp"
+"C:\poop\demeter\src\Plane.cpp"
+"C:\poop\demeter\src\Settings.cpp"
+"C:\poop\demeter\src\SkyBox.cpp"
+"C:\poop\demeter\src\StdAfx.cpp"
+"C:\poop\demeter\src\Terrain.cpp"
+"C:\poop\demeter\src\TerrainBlock.cpp"
+"C:\poop\demeter\src\TerrainLattice.cpp"
+"C:\poop\demeter\src\TerrainVertex.cpp"
+"C:\poop\demeter\src\Texture.cpp"
+"C:\poop\demeter\src\TextureCell.cpp"
+"C:\poop\demeter\src\TextureFactory.cpp"
+"C:\poop\demeter\src\TextureGenerator.cpp"
+"C:\poop\demeter\src\TextureSet.cpp"
+"C:\poop\demeter\src\Triangle.cpp"
+"C:\poop\demeter\src\TriangleFan.cpp"
+"C:\poop\demeter\src\TriangleStrip.cpp"
+"C:\poop\demeter\src\Vector.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPE1.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPE2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib /nologo /dll /incremental:no /pdb:"Release/Demeter.pdb" /machine:I386 /out:"../bin/Demeter.dll" /implib:"../lib/Demeter.lib" /libpath:"../lib" 
+.\Release\Brush.obj
+.\Release\DemeterEntryPoint.obj
+.\Release\DetailTexture.obj
+.\Release\Globals.obj
+.\Release\Loader.obj
+.\Release\Plane.obj
+.\Release\Settings.obj
+.\Release\SkyBox.obj
+.\Release\StdAfx.obj
+.\Release\Terrain.obj
+.\Release\TerrainBlock.obj
+.\Release\TerrainLattice.obj
+.\Release\TerrainVertex.obj
+.\Release\Texture.obj
+.\Release\TextureCell.obj
+.\Release\TextureFactory.obj
+.\Release\TextureGenerator.obj
+.\Release\TextureSet.obj
+.\Release\Triangle.obj
+.\Release\TriangleFan.obj
+.\Release\TriangleStrip.obj
+.\Release\Vector.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPE2.tmp"
+<h3>Output Window</h3>
+Compiling...
+Brush.cpp
+DemeterEntryPoint.cpp
+DetailTexture.cpp
+Globals.cpp
+Loader.cpp
+Plane.cpp
+Settings.cpp
+SkyBox.cpp
+StdAfx.cpp
+Terrain.cpp
+C:\poop\demeter\src\Terrain.cpp(1705) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+TerrainBlock.cpp
+TerrainLattice.cpp
+TerrainVertex.cpp
+Texture.cpp
+TextureCell.cpp
+TextureFactory.cpp
+TextureGenerator.cpp
+TextureSet.cpp
+Triangle.cpp
+TriangleFan.cpp
+Generating Code...
+Compiling...
+TriangleStrip.cpp
+Vector.cpp
+Generating Code...
+Linking...
+   Creating library ../lib/Demeter.lib and object ../lib/Demeter.exp
+<h3>
+--------------------Configuration: DemeterElevationLoader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPE6.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETERELEVATIONLOADER_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\elevationloaders\DemeterElevationLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPE6.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPE7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Demeter.lib libxml2.lib iconv.lib /nologo /dll /incremental:no /pdb:"Release/DemeterElevationLoader.pdb" /machine:I386 /out:"../../bin/DemeterElevationLoader.dll" /implib:"../../lib/DemeterElevationLoader.lib" /libpath:"../../lib" 
+.\Release\DemeterElevationLoader.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPE7.tmp"
+<h3>Output Window</h3>
+Compiling...
+DemeterElevationLoader.cpp
+Linking...
+   Creating library ../../lib/DemeterElevationLoader.lib and object ../../lib/DemeterElevationLoader.exp
+
+
+
+<h3>Results</h3>
+DemeterElevationLoader.dll - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: Demeter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TERRAIN_EXPORTS" /D "_PROTECT_ACCESS_" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\Brush.cpp"
+"C:\poop\demeter\src\DemeterEntryPoint.cpp"
+"C:\poop\demeter\src\DetailTexture.cpp"
+"C:\poop\demeter\src\Globals.cpp"
+"C:\poop\demeter\src\Loader.cpp"
+"C:\poop\demeter\src\Plane.cpp"
+"C:\poop\demeter\src\Settings.cpp"
+"C:\poop\demeter\src\SkyBox.cpp"
+"C:\poop\demeter\src\StdAfx.cpp"
+"C:\poop\demeter\src\Terrain.cpp"
+"C:\poop\demeter\src\TerrainBlock.cpp"
+"C:\poop\demeter\src\TerrainLattice.cpp"
+"C:\poop\demeter\src\TerrainVertex.cpp"
+"C:\poop\demeter\src\Texture.cpp"
+"C:\poop\demeter\src\TextureCell.cpp"
+"C:\poop\demeter\src\TextureFactory.cpp"
+"C:\poop\demeter\src\TextureGenerator.cpp"
+"C:\poop\demeter\src\TextureSet.cpp"
+"C:\poop\demeter\src\Triangle.cpp"
+"C:\poop\demeter\src\TriangleFan.cpp"
+"C:\poop\demeter\src\TriangleStrip.cpp"
+"C:\poop\demeter\src\Vector.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPEB.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPEC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib /nologo /dll /incremental:yes /pdb:"Debug/DemeterDebug.pdb" /debug /machine:I386 /out:"../bin/DemeterDebug.dll" /implib:"../lib/DemeterDebug.lib" /pdbtype:sept 
+.\Debug\Brush.obj
+.\Debug\DemeterEntryPoint.obj
+.\Debug\DetailTexture.obj
+.\Debug\Globals.obj
+.\Debug\Loader.obj
+.\Debug\Plane.obj
+.\Debug\Settings.obj
+.\Debug\SkyBox.obj
+.\Debug\StdAfx.obj
+.\Debug\Terrain.obj
+.\Debug\TerrainBlock.obj
+.\Debug\TerrainLattice.obj
+.\Debug\TerrainVertex.obj
+.\Debug\Texture.obj
+.\Debug\TextureCell.obj
+.\Debug\TextureFactory.obj
+.\Debug\TextureGenerator.obj
+.\Debug\TextureSet.obj
+.\Debug\Triangle.obj
+.\Debug\TriangleFan.obj
+.\Debug\TriangleStrip.obj
+.\Debug\Vector.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPEC.tmp"
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+Brush.cpp
+DemeterEntryPoint.cpp
+DetailTexture.cpp
+Globals.cpp
+Loader.cpp
+Plane.cpp
+Settings.cpp
+SkyBox.cpp
+StdAfx.cpp
+Terrain.cpp
+TerrainBlock.cpp
+TerrainLattice.cpp
+TerrainVertex.cpp
+Texture.cpp
+TextureCell.cpp
+TextureFactory.cpp
+TextureGenerator.cpp
+TextureSet.cpp
+Triangle.cpp
+TriangleFan.cpp
+TriangleStrip.cpp
+Vector.cpp
+Linking...
+<h3>
+--------------------Configuration: DemeterElevationLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPED.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETERELEVATIONLOADER_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\elevationloaders\DemeterElevationLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPED.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPEE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib DemeterDebug.lib iconv.lib libxml2.lib /nologo /dll /incremental:yes /pdb:"Debug/DemeterElevationLoaderDebug.pdb" /debug /machine:I386 /out:"../../bin/DemeterElevationLoaderDebug.dll" /implib:"../../lib/DemeterElevationLoaderDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\DemeterElevationLoader.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPEE.tmp"
+<h3>Output Window</h3>
+Compiling...
+DemeterElevationLoader.cpp
+Linking...
+   Creating library ../../lib/DemeterElevationLoaderDebug.lib and object ../../lib/DemeterElevationLoaderDebug.exp
+
+
+
+<h3>Results</h3>
+DemeterElevationLoaderDebug.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DemeterOSG - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPF2.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETEROSG_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\DemeterDrawable.cpp"
+"C:\poop\demeter\src\DemeterOSGEntryPoint.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPF2.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib osg.lib osgDB.lib osgUtil.lib Demeter.lib /nologo /dll /incremental:no /pdb:"Release/DemeterOSG.pdb" /machine:I386 /out:"../../bin/DemeterOSG.dll" /implib:"../../lib/DemeterOSG.lib" /libpath:"../../lib" 
+.\Release\DemeterDrawable.obj
+.\Release\DemeterOSGEntryPoint.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPF3.tmp"
+<h3>Output Window</h3>
+Compiling...
+DemeterDrawable.cpp
+DemeterOSGEntryPoint.cpp
+Generating Code...
+Linking...
+   Creating library ../../lib/DemeterOSG.lib and object ../../lib/DemeterOSG.exp
+
+
+
+<h3>Results</h3>
+DemeterOSG.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DemeterOSG - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPF7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETEROSG_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\DemeterDrawable.cpp"
+"C:\poop\demeter\src\DemeterOSGEntryPoint.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPF7.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPF8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib osgd.lib osgDBd.lib osgUtild.lib DemeterDebug.lib /nologo /dll /incremental:yes /pdb:"Debug/DemeterOSGDebug.pdb" /debug /machine:I386 /out:"../../bin/DemeterOSGDebug.dll" /implib:"../../lib/DemeterOSGDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\DemeterDrawable.obj
+.\Debug\DemeterOSGEntryPoint.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPF8.tmp"
+<h3>Output Window</h3>
+Compiling...
+DemeterDrawable.cpp
+DemeterOSGEntryPoint.cpp
+Generating Code...
+Linking...
+   Creating library ../../lib/DemeterOSGDebug.lib and object ../../lib/DemeterOSGDebug.exp
+
+
+
+<h3>Results</h3>
+DemeterOSGDebug.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DemeterTextureLoader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPFC.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETERTEXTURELOADER_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\textureloaders\DemeterTextureLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPFC.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSPFD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Demeter.lib iconv.lib libxml2.lib /nologo /dll /incremental:no /pdb:"Release/DemeterTextureLoader.pdb" /machine:I386 /out:"../../bin/DemeterTextureLoader.dll" /implib:"../../lib/DemeterTextureLoader.lib" /libpath:"../../lib" 
+.\Release\DemeterTextureLoader.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSPFD.tmp"
+<h3>Output Window</h3>
+Compiling...
+DemeterTextureLoader.cpp
+Linking...
+   Creating library ../../lib/DemeterTextureLoader.lib and object ../../lib/DemeterTextureLoader.exp
+
+
+
+<h3>Results</h3>
+DemeterTextureLoader.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DemeterTextureLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP101.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETERTEXTURELOADER_EXPORTS" /Fp"Debug/DemeterTextureLoader.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\textureloaders\DemeterTextureLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP101.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP102.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib DemeterDebug.lib iconv.lib libxml2.lib /nologo /dll /incremental:yes /pdb:"Debug/DemeterTextureLoaderDebug.pdb" /debug /machine:I386 /out:"../../bin/DemeterTextureLoaderDebug.dll" /implib:"../../lib/DemeterTextureLoaderDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\DemeterTextureLoader.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP102.tmp"
+<h3>Output Window</h3>
+Compiling...
+DemeterTextureLoader.cpp
+Linking...
+   Creating library ../../lib/DemeterTextureLoaderDebug.lib and object ../../lib/DemeterTextureLoaderDebug.exp
+
+
+
+<h3>Results</h3>
+DemeterTextureLoaderDebug.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: GDALElevationLoader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP106.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GDALELEVATIONLOADER_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\elevationloaders\GDALElevationLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP106.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP107.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Demeter.lib gdal_i.lib /nologo /dll /incremental:no /pdb:"Release/GDALElevationLoader.pdb" /machine:I386 /out:"../../bin/GDALElevationLoader.dll" /implib:"../../lib/GDALElevationLoader.lib" /libpath:"../../lib" 
+.\Release\GDALElevationLoader.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP107.tmp"
+<h3>Output Window</h3>
+Compiling...
+GDALElevationLoader.cpp
+Linking...
+   Creating library ../../lib/GDALElevationLoader.lib and object ../../lib/GDALElevationLoader.exp
+
+
+
+<h3>Results</h3>
+GDALElevationLoader.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: GDALElevationLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP10B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GDALELEVATIONLOADER_EXPORTS" /Fp"Debug/GDALElevationLoader.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\elevationloaders\GDALElevationLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP10B.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP10C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib DemeterDebug.lib gdal_i.lib /nologo /dll /incremental:yes /pdb:"Debug/GDALElevationLoaderDebug.pdb" /debug /machine:I386 /out:"../../bin/GDALElevationLoaderDebug.dll" /implib:"../../lib/GDALElevationLoaderDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\GDALElevationLoader.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP10C.tmp"
+<h3>Output Window</h3>
+Compiling...
+GDALElevationLoader.cpp
+Linking...
+   Creating library ../../lib/GDALElevationLoaderDebug.lib and object ../../lib/GDALElevationLoaderDebug.exp
+
+
+
+<h3>Results</h3>
+GDALElevationLoaderDebug.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SDLTextureLoader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP110.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SDLTEXTURELOADER_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\textureloaders\SDLTextureLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP110.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP111.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL.lib SDL_image.lib Demeter.lib /nologo /dll /incremental:no /pdb:"Release/SDLTextureLoader.pdb" /machine:I386 /out:"../../bin/SDLTextureLoader.dll" /implib:"../../lib/SDLTextureLoader.lib" /libpath:"../../lib" 
+.\Release\SDLTextureLoader.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP111.tmp"
+<h3>Output Window</h3>
+Compiling...
+SDLTextureLoader.cpp
+Linking...
+   Creating library ../../lib/SDLTextureLoader.lib and object ../../lib/SDLTextureLoader.exp
+
+
+
+<h3>Results</h3>
+SDLTextureLoader.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SDLTextureLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP115.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TERRAIN_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\textureloaders\SDLTextureLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP115.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP116.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL.lib SDL_image.lib DemeterDebug.lib /nologo /dll /incremental:yes /pdb:"Debug/SDLTextureLoaderDebug.pdb" /debug /machine:I386 /out:"../../bin/SDLTextureLoaderDebug.dll" /implib:"Debug/SDLTextureLoaderDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\SDLTextureLoader.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP116.tmp"
+<h3>Output Window</h3>
+Compiling...
+SDLTextureLoader.cpp
+Linking...
+   Creating library Debug/SDLTextureLoaderDebug.lib and object Debug/SDLTextureLoaderDebug.exp
+
+
+
+<h3>Results</h3>
+SDLTextureLoaderDebug.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DemeterElevationLoader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP11A.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETERELEVATIONLOADER_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\elevationloaders\DemeterElevationLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP11A.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP11B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Demeter.lib libxml2.lib iconv.lib /nologo /dll /incremental:no /pdb:"Release/DemeterElevationLoader.pdb" /machine:I386 /out:"../../bin/DemeterElevationLoader.dll" /implib:"../../lib/DemeterElevationLoader.lib" /libpath:"../../lib" 
+.\Release\DemeterElevationLoader.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP11B.tmp"
+<h3>Output Window</h3>
+Compiling...
+DemeterElevationLoader.cpp
+Linking...
+   Creating library ../../lib/DemeterElevationLoader.lib and object ../../lib/DemeterElevationLoader.exp
+<h3>
+--------------------Configuration: DemeterTextureLoader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP11F.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETERTEXTURELOADER_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\textureloaders\DemeterTextureLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP11F.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP120.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Demeter.lib iconv.lib libxml2.lib /nologo /dll /incremental:no /pdb:"Release/DemeterTextureLoader.pdb" /machine:I386 /out:"../../bin/DemeterTextureLoader.dll" /implib:"../../lib/DemeterTextureLoader.lib" /libpath:"../../lib" 
+.\Release\DemeterTextureLoader.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP120.tmp"
+<h3>Output Window</h3>
+Compiling...
+DemeterTextureLoader.cpp
+Linking...
+   Creating library ../../lib/DemeterTextureLoader.lib and object ../../lib/DemeterTextureLoader.exp
+<h3>
+--------------------Configuration: SampleDemeterApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP124.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_PROTECT_ACCESS_" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleDemeterApplication\DemeterSampleMain.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP124.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP125.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib Demeter.lib libxml2.lib SDL.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SampleDemeterApplication.pdb" /machine:I386 /out:"../../bin/SampleDemeterApplication.exe" /libpath:"../../lib" 
+.\Release\Camera.obj
+.\Release\DemeterSampleMain.obj
+.\Release\Matrix.obj
+\poop\demeter\lib\Demeter.lib
+\poop\demeter\lib\DemeterElevationLoader.lib
+\poop\demeter\lib\DemeterTextureLoader.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP125.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+DemeterSampleMain.cpp
+Matrix.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleDemeterApplication.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DemeterElevationLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP127.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETERELEVATIONLOADER_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\elevationloaders\DemeterElevationLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP127.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP128.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib DemeterDebug.lib iconv.lib libxml2.lib /nologo /dll /incremental:yes /pdb:"Debug/DemeterElevationLoaderDebug.pdb" /debug /machine:I386 /out:"../../bin/DemeterElevationLoaderDebug.dll" /implib:"../../lib/DemeterElevationLoaderDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\DemeterElevationLoader.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP128.tmp"
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+DemeterElevationLoader.cpp
+Linking...
+<h3>
+--------------------Configuration: DemeterTextureLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP129.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETERTEXTURELOADER_EXPORTS" /Fp"Debug/DemeterTextureLoader.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\textureloaders\DemeterTextureLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP129.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib DemeterDebug.lib iconv.lib libxml2.lib /nologo /dll /incremental:yes /pdb:"Debug/DemeterTextureLoaderDebug.pdb" /debug /machine:I386 /out:"../../bin/DemeterTextureLoaderDebug.dll" /implib:"../../lib/DemeterTextureLoaderDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\DemeterTextureLoader.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+DemeterTextureLoader.cpp
+Linking...
+<h3>
+--------------------Configuration: SampleDemeterApplication - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_PROTECT_ACCESS_" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleDemeterApplication\DemeterSampleMain.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12B.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib SDL.lib DemeterDebug.lib libxml2.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SampleDemeterApplicationDebug.pdb" /debug /machine:I386 /out:"../../bin/SampleDemeterApplicationDebug.exe" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\Camera.obj
+.\Debug\DemeterSampleMain.obj
+.\Debug\Matrix.obj
+\poop\demeter\lib\DemeterDebug.lib
+\poop\demeter\lib\DemeterElevationLoaderDebug.lib
+\poop\demeter\lib\DemeterTextureLoaderDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+DemeterSampleMain.cpp
+Matrix.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleDemeterApplicationDebug.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: GDALElevationLoader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12E.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GDALELEVATIONLOADER_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\elevationloaders\GDALElevationLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12E.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Demeter.lib gdal_i.lib /nologo /dll /incremental:no /pdb:"Release/GDALElevationLoader.pdb" /machine:I386 /out:"../../bin/GDALElevationLoader.dll" /implib:"../../lib/GDALElevationLoader.lib" /libpath:"../../lib" 
+.\Release\GDALElevationLoader.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP12F.tmp"
+<h3>Output Window</h3>
+Compiling...
+GDALElevationLoader.cpp
+Linking...
+   Creating library ../../lib/GDALElevationLoader.lib and object ../../lib/GDALElevationLoader.exp
+<h3>
+--------------------Configuration: SDLTextureLoader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP133.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SDLTEXTURELOADER_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\textureloaders\SDLTextureLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP133.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP134.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL.lib SDL_image.lib Demeter.lib /nologo /dll /incremental:no /pdb:"Release/SDLTextureLoader.pdb" /machine:I386 /out:"../../bin/SDLTextureLoader.dll" /implib:"../../lib/SDLTextureLoader.lib" /libpath:"../../lib" 
+.\Release\SDLTextureLoader.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP134.tmp"
+<h3>Output Window</h3>
+Compiling...
+SDLTextureLoader.cpp
+Linking...
+   Creating library ../../lib/SDLTextureLoader.lib and object ../../lib/SDLTextureLoader.exp
+<h3>
+--------------------Configuration: SampleEditApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP138.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_PROTECT_ACCESS_" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleEditApplication\SampleEditMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP138.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib Demeter.lib SDL.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SampleEditApplication.pdb" /machine:I386 /out:"../../bin/SampleEditApplication.exe" /libpath:"../../lib" 
+.\Release\Camera.obj
+.\Release\Matrix.obj
+.\Release\SampleEditMain.obj
+\poop\demeter\lib\Demeter.lib
+\poop\demeter\lib\GDALElevationLoader.lib
+\poop\demeter\lib\SDLTextureLoader.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP139.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleEditMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleEditApplication.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: GDALElevationLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GDALELEVATIONLOADER_EXPORTS" /Fp"Debug/GDALElevationLoader.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\elevationloaders\GDALElevationLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13B.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib DemeterDebug.lib gdal_i.lib /nologo /dll /incremental:yes /pdb:"Debug/GDALElevationLoaderDebug.pdb" /debug /machine:I386 /out:"../../bin/GDALElevationLoaderDebug.dll" /implib:"../../lib/GDALElevationLoaderDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\GDALElevationLoader.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+GDALElevationLoader.cpp
+Linking...
+<h3>
+--------------------Configuration: SDLTextureLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "TERRAIN_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\textureloaders\SDLTextureLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13D.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL.lib SDL_image.lib DemeterDebug.lib /nologo /dll /incremental:yes /pdb:"Debug/SDLTextureLoaderDebug.pdb" /debug /machine:I386 /out:"../../bin/SDLTextureLoaderDebug.dll" /implib:"Debug/SDLTextureLoaderDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\SDLTextureLoader.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13E.tmp"
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+SDLTextureLoader.cpp
+Linking...
+<h3>
+--------------------Configuration: SampleEditApplication - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_PROTECT_ACCESS_" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleEditApplication\SampleEditMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP13F.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP140.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib DemeterDebug.lib SDL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SampleEditApplicationDebug.pdb" /debug /machine:I386 /out:"../../bin/SampleEditApplicationDebug.exe" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\Camera.obj
+.\Debug\Matrix.obj
+.\Debug\SampleEditMain.obj
+\poop\demeter\lib\DemeterDebug.lib
+\poop\demeter\lib\GDALElevationLoaderDebug.lib
+\poop\demeter\VisualStudio\SDLTextureLoader\Debug\SDLTextureLoaderDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP140.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleEditMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleEditApplicationDebug.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleGDALApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP142.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleGDALApplication\SampleGDALMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP142.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP143.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib Demeter.lib gdal_i.lib SDL.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SampleGDALApplication.pdb" /machine:I386 /out:"../../bin/SampleGDALApplication.exe" /libpath:"../../lib" 
+.\Release\Camera.obj
+.\Release\Matrix.obj
+.\Release\SampleGDALMain.obj
+\poop\demeter\lib\Demeter.lib
+\poop\demeter\lib\GDALElevationLoader.lib
+\poop\demeter\lib\SDLTextureLoader.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP143.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleGDALMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleGDALApplication.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleGDALApplication - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP145.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleGDALApplication\SampleGDALMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP145.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP146.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib DemeterDebug.lib gdal_i.lib SDL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SampleGDALApplicationDebug.pdb" /debug /machine:I386 /out:"../../bin/SampleGDALApplicationDebug.exe" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\Camera.obj
+.\Debug\Matrix.obj
+.\Debug\SampleGDALMain.obj
+\poop\demeter\lib\DemeterDebug.lib
+\poop\demeter\lib\GDALElevationLoaderDebug.lib
+\poop\demeter\VisualStudio\SDLTextureLoader\Debug\SDLTextureLoaderDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP146.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleGDALMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleGDALApplicationDebug.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DemeterOSG - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP148.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETEROSG_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\src\DemeterDrawable.cpp"
+"C:\poop\demeter\src\DemeterOSGEntryPoint.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP148.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP149.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib osg.lib osgDB.lib osgUtil.lib Demeter.lib /nologo /dll /incremental:no /pdb:"Release/DemeterOSG.pdb" /machine:I386 /out:"../../bin/DemeterOSG.dll" /implib:"../../lib/DemeterOSG.lib" /libpath:"../../lib" 
+.\Release\DemeterDrawable.obj
+.\Release\DemeterOSGEntryPoint.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP149.tmp"
+<h3>Output Window</h3>
+Compiling...
+DemeterDrawable.cpp
+DemeterOSGEntryPoint.cpp
+Generating Code...
+Linking...
+   Creating library ../../lib/DemeterOSG.lib and object ../../lib/DemeterOSG.exp
+<h3>
+--------------------Configuration: SampleOSGApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP14D.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\samples\SampleOSGApplication\HoverCamera.cpp"
+"C:\poop\demeter\samples\SampleOSGApplication\SampleOSGApplication.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP14D.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP14E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib osg.lib osgDB.lib osgutil.lib Demeter.lib DemeterOSG.lib SDL.lib iconv.lib libxml2.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SampleOSGApplication.pdb" /machine:I386 /out:"../../bin/SampleOSGApplication.exe" /libpath:"../../lib" /libpath:"C:\STLport-4.5.3\lib" 
+.\Release\HoverCamera.obj
+.\Release\SampleOSGApplication.obj
+\poop\demeter\lib\Demeter.lib
+\poop\demeter\lib\DemeterOSG.lib
+\poop\demeter\lib\DemeterElevationLoader.lib
+\poop\demeter\lib\DemeterTextureLoader.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP14E.tmp"
+<h3>Output Window</h3>
+Compiling...
+HoverCamera.cpp
+SampleOSGApplication.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleOSGApplication.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DemeterOSG - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP150.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DEMETEROSG_EXPORTS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\src\DemeterDrawable.cpp"
+"C:\poop\demeter\src\DemeterOSGEntryPoint.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP150.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP151.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib osgd.lib osgDBd.lib osgUtild.lib DemeterDebug.lib /nologo /dll /incremental:yes /pdb:"Debug/DemeterOSGDebug.pdb" /debug /machine:I386 /out:"../../bin/DemeterOSGDebug.dll" /implib:"../../lib/DemeterOSGDebug.lib" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\DemeterDrawable.obj
+.\Debug\DemeterOSGEntryPoint.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP151.tmp"
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+DemeterDrawable.cpp
+DemeterOSGEntryPoint.cpp
+Linking...
+<h3>
+--------------------Configuration: SampleOSGApplication - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP152.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\samples\SampleOSGApplication\HoverCamera.cpp"
+"C:\poop\demeter\samples\SampleOSGApplication\SampleOSGApplication.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP152.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP153.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib osgd.lib osgdbd.lib osgutild.lib DemeterDebug.lib DemeterOSGDebug.lib SDL.lib iconv.lib libxml2.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SampleOSGApplicationDebug.pdb" /debug /machine:I386 /out:"../../bin/SampleOSGApplicationDebug.exe" /pdbtype:sept /libpath:"../../lib" /libpath:"C:\STLport-4.5.3\lib" 
+.\Debug\HoverCamera.obj
+.\Debug\SampleOSGApplication.obj
+\poop\demeter\lib\DemeterDebug.lib
+\poop\demeter\lib\DemeterOSGDebug.lib
+\poop\demeter\lib\DemeterElevationLoaderDebug.lib
+\poop\demeter\lib\DemeterTextureLoaderDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP153.tmp"
+<h3>Output Window</h3>
+Compiling...
+HoverCamera.cpp
+SampleOSGApplication.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleOSGApplicationDebug.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SamplePaintApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP155.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SamplePaintApplication\PaintSampleMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP155.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP156.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib Demeter.lib SDL.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SamplePaintApplication.pdb" /machine:I386 /out:"../../bin/SamplePaintApplication.exe" /libpath:"../../lib" 
+.\Release\Camera.obj
+.\Release\Matrix.obj
+.\Release\PaintSampleMain.obj
+\poop\demeter\lib\Demeter.lib
+\poop\demeter\lib\GDALElevationLoader.lib
+\poop\demeter\lib\SDLTextureLoader.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP156.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+PaintSampleMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SamplePaintApplication.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SamplePaintApplication - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP158.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SamplePaintApplication\PaintSampleMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP158.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP159.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib DemeterDebug.lib SDL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SamplePaintApplicationDebug.pdb" /debug /machine:I386 /out:"../../bin/SamplePaintApplicationDebug.exe" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\Camera.obj
+.\Debug\Matrix.obj
+.\Debug\PaintSampleMain.obj
+\poop\demeter\lib\DemeterDebug.lib
+\poop\demeter\lib\GDALElevationLoaderDebug.lib
+\poop\demeter\VisualStudio\SDLTextureLoader\Debug\SDLTextureLoaderDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP159.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+PaintSampleMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SamplePaintApplicationDebug.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleProceduralTextureApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP15B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleProceduralTextureApplication\ProceduralTextureSampleMain.cpp"
+"C:\poop\demeter\samples\SampleProceduralTextureApplication\SampleTextureFactory.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP15B.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP15C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib Demeter.lib SDL.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SampleProceduralTextureApplication.pdb" /machine:I386 /out:"../../bin/SampleProceduralTextureApplication.exe" /libpath:"../../lib" 
+.\Release\Camera.obj
+.\Release\Matrix.obj
+.\Release\ProceduralTextureSampleMain.obj
+.\Release\SampleTextureFactory.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP15C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+ProceduralTextureSampleMain.cpp
+SampleTextureFactory.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleProceduralTextureApplication.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleProceduralTextureApplication - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP15E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleProceduralTextureApplication\ProceduralTextureSampleMain.cpp"
+"C:\poop\demeter\samples\SampleProceduralTextureApplication\SampleTextureFactory.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP15E.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP15F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib DemeterDebug.lib SDL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SampleProceduralTextureApplicationDebug.pdb" /debug /machine:I386 /out:"../../bin/SampleProceduralTextureApplicationDebug.exe" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\Camera.obj
+.\Debug\Matrix.obj
+.\Debug\ProceduralTextureSampleMain.obj
+.\Debug\SampleTextureFactory.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP15F.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+ProceduralTextureSampleMain.cpp
+SampleTextureFactory.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleProceduralTextureApplicationDebug.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleRawApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP161.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /Zm200 /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleRawApplication\SampleRawMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP161.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP162.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib Demeter.lib SDL.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SampleRawApplication.pdb" /machine:I386 /out:"../../bin/SampleRawApplication.exe" /libpath:"../../lib" 
+.\Release\Camera.obj
+.\Release\Matrix.obj
+.\Release\SampleRawMain.obj
+\poop\demeter\lib\Demeter.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP162.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleRawMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleRawApplication.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleRawApplication - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP164.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /Zm200 /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleRawApplication\SampleRawMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP164.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP165.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib DemeterDebug.lib SDL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SampleRawApplicationDebug.pdb" /debug /machine:I386 /out:"../../bin/SampleRawApplicationDebug.exe" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\Camera.obj
+.\Debug\Matrix.obj
+.\Debug\SampleRawMain.obj
+\poop\demeter\lib\DemeterDebug.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP165.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleRawMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleRawApplicationDebug.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleSkyBoxApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP167.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /Zm200 /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleSkyBoxApplication\SampleSkyBoxMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP167.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP168.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib Demeter.lib SDL.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SampleSkyBoxApplication.pdb" /machine:I386 /out:"../../bin/SampleSkyBoxApplication.exe" /libpath:"../../lib" 
+.\Release\Camera.obj
+.\Release\Matrix.obj
+.\Release\SampleSkyBoxMain.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP168.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleSkyBoxMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleSkyBoxApplication.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleSkyBoxApplication - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP16A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /Zm200 /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleSkyBoxApplication\SampleSkyBoxMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP16A.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP16B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib DemeterDebug.lib SDL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SampleSkyBoxApplicationDebug.pdb" /debug /machine:I386 /out:"../../bin/SampleSkyBoxApplicationDebug.exe" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\Camera.obj
+.\Debug\Matrix.obj
+.\Debug\SampleSkyBoxMain.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP16B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleSkyBoxMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleSkyBoxApplicationDebug.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleTerrainLatticeApplication - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP16D.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/SampleTerrainLatticeApplication.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleTerrainLatticeApplication\SampleTerrainLatticeMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP16D.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP16E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib Demeter.lib gdal_i.lib SDL.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SampleTerrainLatticeApplication.pdb" /machine:I386 /out:"..\..\bin\SampleTerrainLatticeApplication.exe" /libpath:"../../lib" 
+.\Release\Camera.obj
+.\Release\Matrix.obj
+.\Release\SampleTerrainLatticeMain.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP16E.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleTerrainLatticeMain.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SampleTerrainLatticeApplication.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SampleTerrainLatticeApplication - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP170.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "../../include" /I "../../samples/sampleutilities" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\poop\demeter\samples\SampleUtilities\Camera.cpp"
+"C:\poop\demeter\samples\SampleUtilities\Matrix.cpp"
+"C:\poop\demeter\samples\SampleTerrainLatticeApplication\SampleTerrainLatticeMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP170.tmp" 
+Creating temporary file "C:\DOCUME~1\clay\LOCALS~1\Temp\RSP171.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib DemeterDebug.lib gdal_i.lib SDL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SampleTerrainLatticeApplicationDebug.pdb" /debug /machine:I386 /out:"../../bin/SampleTerrainLatticeApplicationDebug.exe" /pdbtype:sept /libpath:"../../lib" 
+.\Debug\Camera.obj
+.\Debug\Matrix.obj
+.\Debug\SampleTerrainLatticeMain.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\clay\LOCALS~1\Temp\RSP171.tmp"
+<h3>Output Window</h3>
+Compiling...
+Camera.cpp
+Matrix.cpp
+SampleTerrainLatticeMain.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SampleTerrainLatticeApplicationDebug.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

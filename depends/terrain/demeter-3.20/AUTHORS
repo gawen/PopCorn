@@ -1,0 +1,36 @@
+Project Lead: Clay Fowler (claytonious@cox.net)
+Designed and implemented Demeter.
+
+Rodney Foley (aalst@aalst.com)
+Helped write JNI wrapper for Demeter, website development and maintenance,
+build and release management and other assistance.
+
+Hugo van der Merwe (s13361562@bach.sun.ac.za)
+Innovative enhancements to the CLOD algorithm, Python wrapper, code cleanup,
+and numerous core enhancements.
+
+Pavel Moloshtan (pasha@moloshtan.com)
+Optimization of dynamic vertices (smarter TerrainBlock updating) and gcc 3.2
+fixes.
+
+Ian Baxter (ian@swarming.net)
+Code fixes for compiling on Mac OS X and publishing of build instructions
+for OS X users.
+
+Christophe Dubach (christophe.dubach@epfl.ch)
+Improvements and optimizations in some math and parsing functions.
+
+Randall Leeds (tilgovi@optonline.net)
+Mac OS X Porting and General Build Improvement.
+
+Thanks to Tod Hagan for fixing a bug in the installation script 
+for Linux systems.
+
+Thanks to Tero Kontkanen for contributing a brilliant picking technique
+and some bug fixes.
+
+Thanks to Stephan Heigl for ideas, suggestions, and bug reports, especially 
+regarding procedural textures.
+
+If you are looking for business partners or employees, you should consider these
+brilliant people. They have proven their talents by producing high quality work.

@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PopCorn - Win32 Debug--------------------
+</h3>
+
+'make' n'est pas reconnu en tant que commande interne
+ou externe, un programme ex‚cutable ou un fichier de commandes.
+Error executing c:\windows\system32\cmd.exe.
+
+
+
+<h3>Results</h3>
+PopCorn.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

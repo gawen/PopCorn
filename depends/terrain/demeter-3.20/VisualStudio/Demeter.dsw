@@ -1,0 +1,326 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Demeter"=.\Demeter.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    Demeter
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DemeterElevationLoader"=.\DemeterElevationLoader\DemeterElevationLoader.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    DemeterElevationLoader
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DemeterOSG"=.\DemeterOSG\DemeterOSG.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    DemeterOSG
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DemeterTextureLoader"=.\DemeterTextureLoader\DemeterTextureLoader.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    DemeterTextureLoader
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "GDALElevationLoader"=.\GDALElevationLoader\GDALElevationLoader.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    GDALElevationLoader
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SDLTextureLoader"=.\SDLTextureLoader\SDLTextureLoader.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SDLTextureLoader
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SampleDemeterApplication"=.\SampleDemeterApplication\SampleDemeterApplication.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SampleDemeterApplication
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DemeterElevationLoader
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DemeterTextureLoader
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SampleEditApplication"=.\SampleEditApplication\SampleEditApplication.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SampleEditApplication
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name GDALElevationLoader
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SDLTextureLoader
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SampleGDALApplication"=.\SampleGDALApplication\SampleGDALApplication.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SampleGDALApplication
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name GDALElevationLoader
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SDLTextureLoader
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SampleOSGApplication"=.\SampleOSGApplication\SampleOSGApplication.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SampleOSGApplication
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DemeterOSG
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DemeterElevationLoader
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DemeterTextureLoader
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SamplePaintApplication"=.\SamplePaintApplication\SamplePaintApplication.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SamplePaintApplication
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name GDALElevationLoader
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SDLTextureLoader
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SampleProceduralTextureApplication"=.\SampleProceduralTextureApplication\SampleProceduralTextureApplication.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SampleProceduralTextureApplication
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SampleRawApplication"=.\SampleRawApplication\SampleRawApplication.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SampleRawApplication
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Demeter
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SampleSkyBoxApplication"=.\SampleSkyBoxApplication\SampleRawApplication.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SampleSkyBoxApplication
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SampleTerrainLatticeApplication"=.\SampleTerrainLatticeApplication\SampleTerrainLatticeApplication.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    SampleTerrainLatticeApplication
+    ..
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

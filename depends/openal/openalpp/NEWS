@@ -1,0 +1,9 @@
+NEWS
+
+2003-12-11 Anders Backman: 
+
+Recently (november 2003) there is a wrapper system for OpenAL.
+It searches for .dll files called *openal*.dll and loads them, thinking it is an implementation
+of OpenAL32. This does not work with the previous library name of this project (openalpp.lib/.dll).
+So for now it is called open++al.dll. Its not a nice name, but I cant find out any better solution to this
+problem.

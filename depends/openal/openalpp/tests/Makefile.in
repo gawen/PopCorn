@@ -1,0 +1,487 @@
+# Makefile.in generated automatically by automake 1.4-p6 from Makefile.am
+
+# Copyright (C) 1994, 1995-8, 1999, 2001 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+
+SHELL = @SHELL@
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
+
+DESTDIR =
+
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+
+top_builddir = ..
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@ $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
+
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+host_alias = @host_alias@
+host_triplet = @host@
+AS = @AS@
+CC = @CC@
+CCGNUCFLAGS = @CCGNUCFLAGS@
+CCGNULIBS = @CCGNULIBS@
+CXX = @CXX@
+CXXCPP = @CXXCPP@
+DLLTOOL = @DLLTOOL@
+ECHO = @ECHO@
+EXEEXT = @EXEEXT@
+LIBTOOL = @LIBTOOL@
+LN_S = @LN_S@
+MAKEINFO = @MAKEINFO@
+OBJDUMP = @OBJDUMP@
+OBJEXT = @OBJEXT@
+PACKAGE = @PACKAGE@
+RANLIB = @RANLIB@
+STRIP = @STRIP@
+VERSION = @VERSION@
+
+INCLUDES = -I$(top_builddir)/include
+
+@WITH_CCGNU_TRUE@ccgnulibs = @CCGNULIBS@
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@portaudiolibs = -lportaudio
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@ogglibs = -lvorbisfile -lvorbis -logg
+
+@WITH_CCGNU_TRUE@LDADD = ../src/libopenalpp.la $(ccgnulibs) -lopenal $(portaudiolibs) $(ogglibs)
+
+@WITH_CCGNU_TRUE@bin_PROGRAMS = teststream testsend testfstream testmic simple moving
+
+@WITH_CCGNU_TRUE@teststream_SOURCES = teststream.cpp
+
+@WITH_CCGNU_TRUE@testsend_SOURCES = testsend.cpp
+
+@WITH_CCGNU_TRUE@testmic_SOURCES = testmic.cpp
+
+@WITH_CCGNU_TRUE@simple_SOURCES = simple.cpp
+
+@WITH_CCGNU_TRUE@moving_SOURCES = moving.cpp
+
+@WITH_CCGNU_TRUE@testfstream_SOURCES = testfstream.cpp
+mkinstalldirs = $(SHELL) $(top_srcdir)/config/mkinstalldirs
+CONFIG_CLEAN_FILES = 
+@WITH_CCGNU_TRUE@bin_PROGRAMS =  teststream$(EXEEXT) testsend$(EXEEXT) \
+@WITH_CCGNU_TRUE@testfstream$(EXEEXT) testmic$(EXEEXT) simple$(EXEEXT) \
+@WITH_CCGNU_TRUE@moving$(EXEEXT)
+PROGRAMS =  $(bin_PROGRAMS)
+
+
+DEFS = @DEFS@ -I. -I$(srcdir) 
+CPPFLAGS = @CPPFLAGS@
+LDFLAGS = @LDFLAGS@
+LIBS = @LIBS@
+@WITH_CCGNU_TRUE@teststream_OBJECTS =  teststream.$(OBJEXT)
+teststream_LDADD = $(LDADD)
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@teststream_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@teststream_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@teststream_DEPENDENCIES =  ../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@teststream_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@teststream_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@../src/libopenalpp.la
+teststream_LDFLAGS = 
+@WITH_CCGNU_TRUE@testsend_OBJECTS =  testsend.$(OBJEXT)
+testsend_LDADD = $(LDADD)
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@testsend_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@testsend_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@testsend_DEPENDENCIES =  ../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@testsend_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@testsend_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@../src/libopenalpp.la
+testsend_LDFLAGS = 
+@WITH_CCGNU_TRUE@testfstream_OBJECTS =  testfstream.$(OBJEXT)
+testfstream_LDADD = $(LDADD)
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@testfstream_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@testfstream_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@testfstream_DEPENDENCIES =  ../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@testfstream_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@testfstream_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@../src/libopenalpp.la
+testfstream_LDFLAGS = 
+@WITH_CCGNU_TRUE@testmic_OBJECTS =  testmic.$(OBJEXT)
+testmic_LDADD = $(LDADD)
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@testmic_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@testmic_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@testmic_DEPENDENCIES =  ../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@testmic_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@testmic_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@../src/libopenalpp.la
+testmic_LDFLAGS = 
+@WITH_CCGNU_TRUE@simple_OBJECTS =  simple.$(OBJEXT)
+simple_LDADD = $(LDADD)
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@simple_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@simple_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@simple_DEPENDENCIES =  ../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@simple_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@simple_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@../src/libopenalpp.la
+simple_LDFLAGS = 
+@WITH_CCGNU_TRUE@moving_OBJECTS =  moving.$(OBJEXT)
+moving_LDADD = $(LDADD)
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@moving_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@moving_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_FALSE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@moving_DEPENDENCIES =  ../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@moving_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_PORTAUDIO_TRUE@../src/libopenalpp.la
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@moving_DEPENDENCIES =  \
+@WITH_CCGNU_TRUE@@WITH_OGGVORBIS_TRUE@../src/libopenalpp.la
+moving_LDFLAGS = 
+CXXFLAGS = @CXXFLAGS@
+CXXCOMPILE = $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
+LTCXXCOMPILE = $(LIBTOOL) --mode=compile $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
+CXXLD = $(CXX)
+CXXLINK = $(LIBTOOL) --mode=link $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(LDFLAGS) -o $@
+DIST_COMMON =  README Makefile.am Makefile.in
+
+
+DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
+
+TAR = tar
+GZIP_ENV = --best
+DEP_FILES =  .deps/moving.P .deps/simple.P .deps/testfstream.P \
+.deps/testmic.P .deps/testsend.P .deps/teststream.P
+SOURCES = $(teststream_SOURCES) $(testsend_SOURCES) $(testfstream_SOURCES) $(testmic_SOURCES) $(simple_SOURCES) $(moving_SOURCES)
+OBJECTS = $(teststream_OBJECTS) $(testsend_OBJECTS) $(testfstream_OBJECTS) $(testmic_OBJECTS) $(simple_OBJECTS) $(moving_OBJECTS)
+
+all: all-redirect
+.SUFFIXES:
+.SUFFIXES: .S .c .cpp .lo .o .obj .s
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.in $(ACLOCAL_M4) 
+	cd $(top_srcdir) && $(AUTOMAKE) --foreign tests/Makefile
+
+Makefile: $(srcdir)/Makefile.in  $(top_builddir)/config.status $(BUILT_SOURCES)
+	cd $(top_builddir) \
+	  && CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+
+mostlyclean-binPROGRAMS:
+
+clean-binPROGRAMS:
+	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
+
+distclean-binPROGRAMS:
+
+maintainer-clean-binPROGRAMS:
+
+install-binPROGRAMS: $(bin_PROGRAMS)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(DESTDIR)$(bindir)
+	@list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  if test -f $$p; then \
+	    echo " $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`"; \
+	    $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`; \
+	  else :; fi; \
+	done
+
+uninstall-binPROGRAMS:
+	@$(NORMAL_UNINSTALL)
+	list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  rm -f $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`; \
+	done
+
+# FIXME: We should only use cygpath when building on Windows,
+# and only if it is available.
+.c.obj:
+	$(COMPILE) -c `cygpath -w $<`
+
+.s.o:
+	$(COMPILE) -c $<
+
+.S.o:
+	$(COMPILE) -c $<
+
+mostlyclean-compile:
+	-rm -f *.o core *.core
+	-rm -f *.$(OBJEXT)
+
+clean-compile:
+
+distclean-compile:
+	-rm -f *.tab.c
+
+maintainer-clean-compile:
+
+.s.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+.S.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+mostlyclean-libtool:
+	-rm -f *.lo
+
+clean-libtool:
+	-rm -rf .libs _libs
+
+distclean-libtool:
+
+maintainer-clean-libtool:
+
+teststream$(EXEEXT): $(teststream_OBJECTS) $(teststream_DEPENDENCIES)
+	@rm -f teststream$(EXEEXT)
+	$(CXXLINK) $(teststream_LDFLAGS) $(teststream_OBJECTS) $(teststream_LDADD) $(LIBS)
+
+testsend$(EXEEXT): $(testsend_OBJECTS) $(testsend_DEPENDENCIES)
+	@rm -f testsend$(EXEEXT)
+	$(CXXLINK) $(testsend_LDFLAGS) $(testsend_OBJECTS) $(testsend_LDADD) $(LIBS)
+
+testfstream$(EXEEXT): $(testfstream_OBJECTS) $(testfstream_DEPENDENCIES)
+	@rm -f testfstream$(EXEEXT)
+	$(CXXLINK) $(testfstream_LDFLAGS) $(testfstream_OBJECTS) $(testfstream_LDADD) $(LIBS)
+
+testmic$(EXEEXT): $(testmic_OBJECTS) $(testmic_DEPENDENCIES)
+	@rm -f testmic$(EXEEXT)
+	$(CXXLINK) $(testmic_LDFLAGS) $(testmic_OBJECTS) $(testmic_LDADD) $(LIBS)
+
+simple$(EXEEXT): $(simple_OBJECTS) $(simple_DEPENDENCIES)
+	@rm -f simple$(EXEEXT)
+	$(CXXLINK) $(simple_LDFLAGS) $(simple_OBJECTS) $(simple_LDADD) $(LIBS)
+
+moving$(EXEEXT): $(moving_OBJECTS) $(moving_DEPENDENCIES)
+	@rm -f moving$(EXEEXT)
+	$(CXXLINK) $(moving_LDFLAGS) $(moving_OBJECTS) $(moving_LDADD) $(LIBS)
+.cpp.o:
+	$(CXXCOMPILE) -c $<
+.cpp.obj:
+	$(CXXCOMPILE) -c `cygpath -w $<`
+.cpp.lo:
+	$(LTCXXCOMPILE) -c $<
+
+tags: TAGS
+
+ID: $(HEADERS) $(SOURCES) $(LISP)
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	here=`pwd` && cd $(srcdir) \
+	  && mkid -f$$here/ID $$unique $(LISP)
+
+TAGS:  $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) $(LISP)
+	tags=; \
+	here=`pwd`; \
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	test -z "$(ETAGS_ARGS)$$unique$(LISP)$$tags" \
+	  || (cd $(srcdir) && etags -o $$here/TAGS $(ETAGS_ARGS) $$tags  $$unique $(LISP))
+
+mostlyclean-tags:
+
+clean-tags:
+
+distclean-tags:
+	-rm -f TAGS ID
+
+maintainer-clean-tags:
+
+distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
+
+subdir = tests
+
+distdir: $(DISTFILES)
+	here=`cd $(top_builddir) && pwd`; \
+	top_distdir=`cd $(top_distdir) && pwd`; \
+	distdir=`cd $(distdir) && pwd`; \
+	cd $(top_srcdir) \
+	  && $(AUTOMAKE) --include-deps --build-dir=$$here --srcdir-name=$(top_srcdir) --output-dir=$$top_distdir --foreign tests/Makefile
+	@for file in $(DISTFILES); do \
+	  d=$(srcdir); \
+	  if test -d $$d/$$file; then \
+	    cp -pr $$d/$$file $(distdir)/$$file; \
+	  else \
+	    test -f $(distdir)/$$file \
+	    || ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	    || cp -p $$d/$$file $(distdir)/$$file || :; \
+	  fi; \
+	done
+
+DEPS_MAGIC := $(shell mkdir .deps > /dev/null 2>&1 || :)
+
+-include $(DEP_FILES)
+
+mostlyclean-depend:
+
+clean-depend:
+
+distclean-depend:
+	-rm -rf .deps
+
+maintainer-clean-depend:
+
+%.o: %.c
+	@echo '$(COMPILE) -c $<'; \
+	$(COMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-cp .deps/$(*F).pp .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	  | sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	    >> .deps/$(*F).P; \
+	rm .deps/$(*F).pp
+
+%.lo: %.c
+	@echo '$(LTCOMPILE) -c $<'; \
+	$(LTCOMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-sed -e 's/^\([^:]*\)\.o[ 	]*:/\1.lo \1.o :/' \
+	  < .deps/$(*F).pp > .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	  | sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	    >> .deps/$(*F).P; \
+	rm -f .deps/$(*F).pp
+
+%.o: %.cpp
+	@echo '$(CXXCOMPILE) -c $<'; \
+	$(CXXCOMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-cp .deps/$(*F).pp .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	  | sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	    >> .deps/$(*F).P; \
+	rm .deps/$(*F).pp
+
+%.lo: %.cpp
+	@echo '$(LTCXXCOMPILE) -c $<'; \
+	$(LTCXXCOMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-sed -e 's/^\([^:]*\)\.o[ 	]*:/\1.lo \1.o :/' \
+	  < .deps/$(*F).pp > .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	  | sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	    >> .deps/$(*F).P; \
+	rm -f .deps/$(*F).pp
+info-am:
+info: info-am
+dvi-am:
+dvi: dvi-am
+check-am: all-am
+check: check-am
+installcheck-am:
+installcheck: installcheck-am
+install-exec-am: install-binPROGRAMS
+install-exec: install-exec-am
+
+install-data-am:
+install-data: install-data-am
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+install: install-am
+uninstall-am: uninstall-binPROGRAMS
+uninstall: uninstall-am
+all-am: Makefile $(PROGRAMS)
+all-redirect: all-am
+install-strip:
+	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+installdirs:
+	$(mkinstalldirs)  $(DESTDIR)$(bindir)
+
+
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-rm -f Makefile $(CONFIG_CLEAN_FILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+
+maintainer-clean-generic:
+mostlyclean-am:  mostlyclean-binPROGRAMS mostlyclean-compile \
+		mostlyclean-libtool mostlyclean-tags mostlyclean-depend \
+		mostlyclean-generic
+
+mostlyclean: mostlyclean-am
+
+clean-am:  clean-binPROGRAMS clean-compile clean-libtool clean-tags \
+		clean-depend clean-generic mostlyclean-am
+
+clean: clean-am
+
+distclean-am:  distclean-binPROGRAMS distclean-compile distclean-libtool \
+		distclean-tags distclean-depend distclean-generic \
+		clean-am
+	-rm -f libtool
+
+distclean: distclean-am
+
+maintainer-clean-am:  maintainer-clean-binPROGRAMS \
+		maintainer-clean-compile maintainer-clean-libtool \
+		maintainer-clean-tags maintainer-clean-depend \
+		maintainer-clean-generic distclean-am
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+maintainer-clean: maintainer-clean-am
+
+.PHONY: mostlyclean-binPROGRAMS distclean-binPROGRAMS clean-binPROGRAMS \
+maintainer-clean-binPROGRAMS uninstall-binPROGRAMS install-binPROGRAMS \
+mostlyclean-compile distclean-compile clean-compile \
+maintainer-clean-compile mostlyclean-libtool distclean-libtool \
+clean-libtool maintainer-clean-libtool tags mostlyclean-tags \
+distclean-tags clean-tags maintainer-clean-tags distdir \
+mostlyclean-depend distclean-depend clean-depend \
+maintainer-clean-depend info-am info dvi-am dvi check check-am \
+installcheck-am installcheck install-exec-am install-exec \
+install-data-am install-data install-am install uninstall-am uninstall \
+all-redirect all-am all installdirs mostlyclean-generic \
+distclean-generic clean-generic maintainer-clean-generic clean \
+mostlyclean distclean maintainer-clean
+
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:

@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		014CEA410018CDE011CA2923 = {
+			isa = PBXBundleReference;
+			path = DemeterElevationLoader.bundle;
+			refType = 3;
+		};
+		014CEA420018CDE011CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA430018CDE011CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildStyles = (
+				014CEA420018CDE011CA2923,
+				014CEA430018CDE011CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				089C1673FE841209C02AAC07,
+				3C4BCB6F04C3DA670012F580,
+				3C4BCB7F04C3DAE10012F580,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				08FB77AFFE84173DC02AAC07,
+				32C88E010371C26100C91783,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB8FE9D52D311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = DemeterLoaders;
+			refType = 4;
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				1058C7ACFEA557BF11CA2CBB,
+				1058C7AEFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Frameworks and Libraries";
+			refType = 4;
+		};
+		089C1672FE841209C02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		089C1673FE841209C02AAC07 = {
+			buildPhases = (
+				089C1674FE841209C02AAC07,
+				089C1675FE841209C02AAC07,
+				089C1676FE841209C02AAC07,
+				089C1677FE841209C02AAC07,
+				089C1679FE841209C02AAC07,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Users/ian/Library/Frameworks;
+				HEADER_SEARCH_PATHS = "/Users/ian/Library/Frameworks/libxml.framework/Versions/2.5.7/Headers /Users/ian/Library/Frameworks/libiconv.framework/Versions/1.8/Headers";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = DemeterLoaders_Prefix.h;
+				PRODUCT_NAME = DemeterElevationLoader;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = bundle;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = DemeterElevationLoader;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = DemeterLoaders;
+			productReference = 014CEA410018CDE011CA2923;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>DemeterElevationLoader</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
+</dict>
+</plist>
+";
+		};
+		089C1674FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				32DBCF640370AF2F00C91783,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1675FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				089C1680FE841241C02AAC07,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1676FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				3C49327D04EEE69700A80104,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1677FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7AFFEA557BF11CA2CBB,
+				3C4BCB6604C3D97A0012F580,
+				3C4BCB6704C3D97A0012F580,
+				3C4BCB6804C3D97A0012F580,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C1679FE841209C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				089C167DFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+		};
+		089C167DFE841241C02AAC07 = {
+			children = (
+				089C167EFE841241C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		089C167EFE841241C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		089C167FFE841241C02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+		089C1680FE841241C02AAC07 = {
+			fileRef = 089C167DFE841241C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		08FB77AFFE84173DC02AAC07 = {
+			children = (
+				3C49323E04EEE67200A80104,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7ACFEA557BF11CA2CBB = {
+			children = (
+				1058C7ADFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+		};
+		1058C7ADFEA557BF11CA2CBB = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		1058C7AEFEA557BF11CA2CBB = {
+			children = (
+				089C1672FE841209C02AAC07,
+				089C167FFE841241C02AAC07,
+				3C4BCB6104C3D97A0012F580,
+				3C4BCB6204C3D97A0012F580,
+				3C4BCB6304C3D97A0012F580,
+				3C4BCB6404C3D97A0012F580,
+				3C4BCB6504C3D97A0012F580,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+		};
+		1058C7AFFEA557BF11CA2CBB = {
+			fileRef = 1058C7ADFEA557BF11CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//190
+//191
+//192
+//193
+//194
+		19C28FB8FE9D52D311CA2CBB = {
+			children = (
+				014CEA410018CDE011CA2923,
+				3C4BCB7C04C3DA670012F580,
+				3C4BCB8C04C3DAE10012F580,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//320
+//321
+//322
+//323
+//324
+		32C88E010371C26100C91783 = {
+			children = (
+				32DBCF630370AF2F00C91783,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			refType = 4;
+		};
+		32DBCF630370AF2F00C91783 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			path = DemeterLoaders_Prefix.h;
+			refType = 4;
+		};
+		32DBCF640370AF2F00C91783 = {
+			fileRef = 32DBCF630370AF2F00C91783;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//320
+//321
+//322
+//323
+//324
+//3C0
+//3C1
+//3C2
+//3C3
+//3C4
+		3C49323E04EEE67200A80104 = {
+			children = (
+				3C49324404EEE67200A80104,
+				3C49325604EEE67200A80104,
+			);
+			isa = PBXGroup;
+			name = src;
+			path = ../../src;
+			refType = 2;
+		};
+		3C49324404EEE67200A80104 = {
+			children = (
+				3C49324504EEE67200A80104,
+				3C49324604EEE67200A80104,
+			);
+			isa = PBXGroup;
+			path = elevationloaders;
+			refType = 4;
+		};
+		3C49324504EEE67200A80104 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = DemeterElevationLoader.cpp;
+			refType = 4;
+		};
+		3C49324604EEE67200A80104 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = GDALElevationLoader.cpp;
+			refType = 4;
+		};
+		3C49325604EEE67200A80104 = {
+			children = (
+				3C49325704EEE67200A80104,
+				3C49325804EEE67200A80104,
+			);
+			isa = PBXGroup;
+			path = textureloaders;
+			refType = 4;
+		};
+		3C49325704EEE67200A80104 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = DemeterTextureLoader.cpp;
+			refType = 4;
+		};
+		3C49325804EEE67200A80104 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = SDLTextureLoader.cpp;
+			refType = 4;
+		};
+		3C49327D04EEE69700A80104 = {
+			fileRef = 3C49324504EEE67200A80104;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C49327E04EEE69A00A80104 = {
+			fileRef = 3C49325704EEE67200A80104;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C49327F04EEE69C00A80104 = {
+			fileRef = 3C49325804EEE67200A80104;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB6104C3D97A0012F580 = {
+			isa = PBXFrameworkReference;
+			name = Demeter.framework;
+			path = ../Demeter/build/Demeter.framework;
+			refType = 2;
+		};
+		3C4BCB6204C3D97A0012F580 = {
+			isa = PBXFrameworkReference;
+			name = libiconv.framework;
+			path = /Users/ian/Library/Frameworks/libiconv.framework;
+			refType = 0;
+		};
+		3C4BCB6304C3D97A0012F580 = {
+			isa = PBXFrameworkReference;
+			name = libxml.framework;
+			path = /Users/ian/Library/Frameworks/libxml.framework;
+			refType = 0;
+		};
+		3C4BCB6404C3D97A0012F580 = {
+			isa = PBXFrameworkReference;
+			name = SDL_image.framework;
+			path = /Users/ian/Library/Frameworks/SDL_image.framework;
+			refType = 0;
+		};
+		3C4BCB6504C3D97A0012F580 = {
+			isa = PBXFrameworkReference;
+			name = SDL.framework;
+			path = /Users/ian/Library/Frameworks/SDL.framework;
+			refType = 0;
+		};
+		3C4BCB6604C3D97A0012F580 = {
+			fileRef = 3C4BCB6104C3D97A0012F580;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB6704C3D97A0012F580 = {
+			fileRef = 3C4BCB6204C3D97A0012F580;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB6804C3D97A0012F580 = {
+			fileRef = 3C4BCB6304C3D97A0012F580;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB6F04C3DA670012F580 = {
+			buildPhases = (
+				3C4BCB7004C3DA670012F580,
+				3C4BCB7204C3DA670012F580,
+				3C4BCB7404C3DA670012F580,
+				3C4BCB7604C3DA670012F580,
+				3C4BCB7B04C3DA670012F580,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Users/ian/Library/Frameworks;
+				HEADER_SEARCH_PATHS = "/Users/ian/Library/Frameworks/libxml.framework/Versions/2.5.7/Headers /Users/ian/Library/Frameworks/libiconv.framework/Versions/1.8/Headers";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = DemeterLoaders_Prefix.h;
+				PRODUCT_NAME = DemeterTextureLoader;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = bundle;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = DemeterTextureLoader;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = DemeterLoaders;
+			productReference = 3C4BCB7C04C3DA670012F580;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>DemeterTextureLoader</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
+</dict>
+</plist>
+";
+		};
+		3C4BCB7004C3DA670012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+				3C4BCB7104C3DA670012F580,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB7104C3DA670012F580 = {
+			fileRef = 32DBCF630370AF2F00C91783;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB7204C3DA670012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+				3C4BCB7304C3DA670012F580,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB7304C3DA670012F580 = {
+			fileRef = 089C167DFE841241C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB7404C3DA670012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+				3C49327E04EEE69A00A80104,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB7604C3DA670012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+				3C4BCB7704C3DA670012F580,
+				3C4BCB7804C3DA670012F580,
+				3C4BCB7904C3DA670012F580,
+				3C4BCB7A04C3DA670012F580,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB7704C3DA670012F580 = {
+			fileRef = 1058C7ADFEA557BF11CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB7804C3DA670012F580 = {
+			fileRef = 3C4BCB6104C3D97A0012F580;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB7904C3DA670012F580 = {
+			fileRef = 3C4BCB6204C3D97A0012F580;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB7A04C3DA670012F580 = {
+			fileRef = 3C4BCB6304C3D97A0012F580;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB7B04C3DA670012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB7C04C3DA670012F580 = {
+			isa = PBXBundleReference;
+			path = DemeterTextureLoader.bundle;
+			refType = 3;
+		};
+		3C4BCB7F04C3DAE10012F580 = {
+			buildPhases = (
+				3C4BCB8004C3DAE10012F580,
+				3C4BCB8204C3DAE10012F580,
+				3C4BCB8404C3DAE10012F580,
+				3C4BCB8604C3DAE10012F580,
+				3C4BCB8B04C3DAE10012F580,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Users/ian/Library/Frameworks;
+				HEADER_SEARCH_PATHS = "/Users/ian/Library/Frameworks/SDL.framework/Versions/A/Headers /Users/ian/Library/Frameworks/SDL_image.framework/Versions/A/Headers /Users/ian/Library/Frameworks/libxml.framework/Versions/2.5.7/Headers /Users/ian/Library/Frameworks/libiconv.framework/Versions/1.8/Headers";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = DemeterLoaders_Prefix.h;
+				PRODUCT_NAME = SDLTextureLoader;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = bundle;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = SDLTextureLoader;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = DemeterLoaders;
+			productReference = 3C4BCB8C04C3DAE10012F580;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SDLTextureLoader</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
+</dict>
+</plist>
+";
+		};
+		3C4BCB8004C3DAE10012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+				3C4BCB8104C3DAE10012F580,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB8104C3DAE10012F580 = {
+			fileRef = 32DBCF630370AF2F00C91783;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB8204C3DAE10012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+				3C4BCB8304C3DAE10012F580,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB8304C3DAE10012F580 = {
+			fileRef = 089C167DFE841241C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB8404C3DAE10012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+				3C49327F04EEE69C00A80104,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB8604C3DAE10012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+				3C4BCB8704C3DAE10012F580,
+				3C4BCB8804C3DAE10012F580,
+				3C4BCB8E04C3DAF00012F580,
+				3C4BCB8F04C3DB1B0012F580,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB8704C3DAE10012F580 = {
+			fileRef = 1058C7ADFEA557BF11CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB8804C3DAE10012F580 = {
+			fileRef = 3C4BCB6104C3D97A0012F580;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB8B04C3DAE10012F580 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4BCB8C04C3DAE10012F580 = {
+			isa = PBXBundleReference;
+			path = SDLTextureLoader.bundle;
+			refType = 3;
+		};
+		3C4BCB8E04C3DAF00012F580 = {
+			fileRef = 3C4BCB6404C3D97A0012F580;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C4BCB8F04C3DB1B0012F580 = {
+			fileRef = 3C4BCB6504C3D97A0012F580;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

@@ -1,0 +1,2 @@
+; c:\MinGW\bin\dlltool --base-file C:/DOCUME~1/SILVEL~1/LOCALS~1/Temp/cca02288.base --output-exp PopCorn.exp --dllname PopCorn.dll --output-def libPopCorn.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:/DOCUME~1/SILVEL~1/LOCALS~1/Temp/cca02288.def --output-lib libPopCorn.a
+EXPORTS

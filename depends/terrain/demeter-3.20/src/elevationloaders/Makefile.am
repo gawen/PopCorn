@@ -1,0 +1,9 @@
+if HAVE_LIBXML2
+DEMETERDIR = demeter
+endif
+
+if HAVE_LIBGDAL
+GDALDIR = gdal
+endif
+SUBDIRS = $(DEMETERDIR) $(GDALDIR)
+

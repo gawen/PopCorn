@@ -1,0 +1,152 @@
+# Project: PopCorn
+# Makefile created by Dev-C++ 4.9.8.3
+
+CPP  = g++
+CC   = gcc
+WINDRES = windres
+RES  = 
+OBJ  = Release/VideoConfig.o Release/AudioConfig.o Release/Timer.o Release/Debug.o Release/Kernel.o Release/EventsConfig.o Release/Scene.o Release/Types.o Release/Objects.o Release/Object.o Release/ObjList.o Release/Camera.o Release/ObjTeapot.o Release/ObjSound.o Release/main.o Release/DynamicArray.o Release/Engine2d.o Release/PopCorn.o Release/Texture.o Release/ObjConfigFile.o Release/ObjLinesFile.o Release/Obj3DSObject.o Release/ObjParticles.o Release/TexImage.o Release/TexImageVid.o Release/GLExtensions.o Release/TextureMulti.o Release/Picking.o Release/splash.o Release/video.o Release/menu.o Release/debug_.o Release/ParticlesPlugIn_Flam.o Release/ObjShapes.o Release/Lights.o Release/ObjImage.o Release/ObjFunction.o Release/ObjFont.o Release/ObjPlane.o Release/Material.o Release/ObjTerrain.o Release/Matrix.o $(RES)
+LINKOBJ  = Release/VideoConfig.o Release/AudioConfig.o Release/Timer.o Release/Debug.o Release/Kernel.o Release/EventsConfig.o Release/Scene.o Release/Types.o Release/Objects.o Release/Object.o Release/ObjList.o Release/Camera.o Release/ObjTeapot.o Release/ObjSound.o Release/main.o Release/DynamicArray.o Release/Engine2d.o Release/PopCorn.o Release/Texture.o Release/ObjConfigFile.o Release/ObjLinesFile.o Release/Obj3DSObject.o Release/ObjParticles.o Release/TexImage.o Release/TexImageVid.o Release/GLExtensions.o Release/TextureMulti.o Release/Picking.o Release/splash.o Release/video.o Release/menu.o Release/debug_.o Release/ParticlesPlugIn_Flam.o Release/ObjShapes.o Release/Lights.o Release/ObjImage.o Release/ObjFunction.o Release/ObjFont.o Release/ObjPlane.o Release/Material.o Release/ObjTerrain.o Release/Matrix.o $(RES)
+LIBS =  -L"C:/MinGW/lib" -mwindows -lmingw32 -lSDLmain -lSDL -lopengl32 -lglu32 ../lib/SDL_image.lib ../lib/lib3ds-120d.lib ../lib/ALut.lib ../lib/OpenAL32.lib 
+INCS =  -I"C:/MinGW/include"  -I"../include"  -I"../src" 
+CXXINCS =  -I"C:/MinGW/include/c++"  -I"C:/MinGW/include/c++/mingw32"  -I"C:/MinGW/include/c++/backward"  -I"C:/MinGW/include"  -I"../include"  -I"../src" 
+BIN  = ../wq/WaterQuest.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS = $(INCS) 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before ../wq/WaterQuest.exe all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(LINKOBJ)
+	$(CPP) $(LINKOBJ) -o "..\wq\WaterQuest.exe" $(LIBS)
+
+Release/VideoConfig.o: ../src/VideoConfig.cpp
+	$(CPP) -c ../src/VideoConfig.cpp -o Release/VideoConfig.o $(CXXFLAGS)
+
+Release/AudioConfig.o: ../src/AudioConfig.cpp
+	$(CPP) -c ../src/AudioConfig.cpp -o Release/AudioConfig.o $(CXXFLAGS)
+
+Release/Timer.o: ../src/Timer.cpp
+	$(CPP) -c ../src/Timer.cpp -o Release/Timer.o $(CXXFLAGS)
+
+Release/Debug.o: ../src/Debug.cpp
+	$(CPP) -c ../src/Debug.cpp -o Release/Debug.o $(CXXFLAGS)
+
+Release/Kernel.o: ../src/Kernel.cpp
+	$(CPP) -c ../src/Kernel.cpp -o Release/Kernel.o $(CXXFLAGS)
+
+Release/EventsConfig.o: ../src/EventsConfig.cpp
+	$(CPP) -c ../src/EventsConfig.cpp -o Release/EventsConfig.o $(CXXFLAGS)
+
+Release/Scene.o: ../src/Scene.cpp
+	$(CPP) -c ../src/Scene.cpp -o Release/Scene.o $(CXXFLAGS)
+
+Release/Types.o: ../src/Types.cpp
+	$(CPP) -c ../src/Types.cpp -o Release/Types.o $(CXXFLAGS)
+
+Release/Objects.o: ../src/Objects.cpp
+	$(CPP) -c ../src/Objects.cpp -o Release/Objects.o $(CXXFLAGS)
+
+Release/Object.o: ../src/Object.cpp
+	$(CPP) -c ../src/Object.cpp -o Release/Object.o $(CXXFLAGS)
+
+Release/ObjList.o: ../src/ObjList.cpp
+	$(CPP) -c ../src/ObjList.cpp -o Release/ObjList.o $(CXXFLAGS)
+
+Release/Camera.o: ../src/Camera.cpp
+	$(CPP) -c ../src/Camera.cpp -o Release/Camera.o $(CXXFLAGS)
+
+Release/ObjTeapot.o: ../src/ObjTeapot.cpp
+	$(CPP) -c ../src/ObjTeapot.cpp -o Release/ObjTeapot.o $(CXXFLAGS)
+
+Release/ObjSound.o: ../src/ObjSound.cpp
+	$(CPP) -c ../src/ObjSound.cpp -o Release/ObjSound.o $(CXXFLAGS)
+
+Release/main.o: ../wq/src/main.cpp
+	$(CPP) -c ../wq/src/main.cpp -o Release/main.o $(CXXFLAGS)
+
+Release/DynamicArray.o: ../src/DynamicArray.cpp
+	$(CPP) -c ../src/DynamicArray.cpp -o Release/DynamicArray.o $(CXXFLAGS)
+
+Release/Engine2d.o: ../src/Engine2d.cpp
+	$(CPP) -c ../src/Engine2d.cpp -o Release/Engine2d.o $(CXXFLAGS)
+
+Release/PopCorn.o: ../src/PopCorn.cpp
+	$(CPP) -c ../src/PopCorn.cpp -o Release/PopCorn.o $(CXXFLAGS)
+
+Release/Texture.o: ../src/Texture.cpp
+	$(CPP) -c ../src/Texture.cpp -o Release/Texture.o $(CXXFLAGS)
+
+Release/ObjConfigFile.o: ../src/ObjConfigFile.cpp
+	$(CPP) -c ../src/ObjConfigFile.cpp -o Release/ObjConfigFile.o $(CXXFLAGS)
+
+Release/ObjLinesFile.o: ../src/ObjLinesFile.cpp
+	$(CPP) -c ../src/ObjLinesFile.cpp -o Release/ObjLinesFile.o $(CXXFLAGS)
+
+Release/Obj3DSObject.o: ../src/Obj3DSObject.cpp
+	$(CPP) -c ../src/Obj3DSObject.cpp -o Release/Obj3DSObject.o $(CXXFLAGS)
+
+Release/ObjParticles.o: ../src/ObjParticles.cpp
+	$(CPP) -c ../src/ObjParticles.cpp -o Release/ObjParticles.o $(CXXFLAGS)
+
+Release/TexImage.o: ../src/TexImage.cpp
+	$(CPP) -c ../src/TexImage.cpp -o Release/TexImage.o $(CXXFLAGS)
+
+Release/TexImageVid.o: ../src/TexImageVid.cpp
+	$(CPP) -c ../src/TexImageVid.cpp -o Release/TexImageVid.o $(CXXFLAGS)
+
+Release/GLExtensions.o: ../src/GLExtensions.cpp
+	$(CPP) -c ../src/GLExtensions.cpp -o Release/GLExtensions.o $(CXXFLAGS)
+
+Release/TextureMulti.o: ../src/TextureMulti.cpp
+	$(CPP) -c ../src/TextureMulti.cpp -o Release/TextureMulti.o $(CXXFLAGS)
+
+Release/Picking.o: ../src/Picking.cpp
+	$(CPP) -c ../src/Picking.cpp -o Release/Picking.o $(CXXFLAGS)
+
+Release/splash.o: ../wq/src/splash.cpp
+	$(CPP) -c ../wq/src/splash.cpp -o Release/splash.o $(CXXFLAGS)
+
+Release/video.o: ../wq/src/video.cpp
+	$(CPP) -c ../wq/src/video.cpp -o Release/video.o $(CXXFLAGS)
+
+Release/menu.o: ../wq/src/menu.cpp
+	$(CPP) -c ../wq/src/menu.cpp -o Release/menu.o $(CXXFLAGS)
+
+Release/debug_.o: ../wq/src/debug_.cpp
+	$(CPP) -c ../wq/src/debug_.cpp -o Release/debug_.o $(CXXFLAGS)
+
+Release/ParticlesPlugIn_Flam.o: ../src/ParticlesPlugIn_Flam.cpp
+	$(CPP) -c ../src/ParticlesPlugIn_Flam.cpp -o Release/ParticlesPlugIn_Flam.o $(CXXFLAGS)
+
+Release/ObjShapes.o: ../src/ObjShapes.cpp
+	$(CPP) -c ../src/ObjShapes.cpp -o Release/ObjShapes.o $(CXXFLAGS)
+
+Release/Lights.o: ../src/Lights.cpp
+	$(CPP) -c ../src/Lights.cpp -o Release/Lights.o $(CXXFLAGS)
+
+Release/ObjImage.o: ../src/ObjImage.cpp
+	$(CPP) -c ../src/ObjImage.cpp -o Release/ObjImage.o $(CXXFLAGS)
+
+Release/ObjFunction.o: ../src/ObjFunction.cpp
+	$(CPP) -c ../src/ObjFunction.cpp -o Release/ObjFunction.o $(CXXFLAGS)
+
+Release/ObjFont.o: ../src/ObjFont.cpp
+	$(CPP) -c ../src/ObjFont.cpp -o Release/ObjFont.o $(CXXFLAGS)
+
+Release/ObjPlane.o: ../src/ObjPlane.cpp
+	$(CPP) -c ../src/ObjPlane.cpp -o Release/ObjPlane.o $(CXXFLAGS)
+
+Release/Material.o: ../src/Material.cpp
+	$(CPP) -c ../src/Material.cpp -o Release/Material.o $(CXXFLAGS)
+
+Release/ObjTerrain.o: ../src/ObjTerrain.cpp
+	$(CPP) -c ../src/ObjTerrain.cpp -o Release/ObjTerrain.o $(CXXFLAGS)
+
+Release/Matrix.o: ../src/Matrix.cpp
+	$(CPP) -c ../src/Matrix.cpp -o Release/Matrix.o $(CXXFLAGS)

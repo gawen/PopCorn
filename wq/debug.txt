@@ -1,0 +1,49 @@
+***Initialisation vidéo [OK]
+**Info sur la vidéo
+Résolution : 640x480x32
+Length of a surface scanline in bytes : 2560, Surface flags : 22
+Hardware surfaces ? 1
+Window manager available ? 1
+Hardware :
+ - blits accelerated ? 1
+ - colorkey blits accelerated ? 1
+ - alpha blits accelerated ? 0
+ - blits accelerated ? 1
+ - colorkey blits accelerated ? 1
+ - alpha blits accelerated ? 0
+Color fills accelerated ? 1
+Video memory : 30448 ko
+**OpenGL :
+0 buffers auxilliaires
+Tampon d'accumulation : R16G16B16A16
+GL_MAX_CLIENT_ATTRIB_STACK_DEPTH : 16
+GL_MAX_ATTRIB_STACK_DEPTH : 16
+GL_MAX_CLIP_PLANES : 6
+GL_MAX_EVAL_ORDER : 8
+GL_MAX_LIGHTS : 8
+GL_MAX_LIST_NESTING : 64
+GL_MAX_MODELVIEW_STACK_DEPTH : 32
+GL_MAX_NAME_STACK_DEPTH : 128
+GL_MAX_PIXEL_MAP_TABLE : 65536
+GL_MAX_PROJECTION_STACK_DEPTH : 4
+GL_MAX_TEXTURE_SIZE : 2048
+GL_MAX_TEXTURE_STACK_DEPTH : 10
+GL_STEREO : 0
+Driver Company : NVIDIA Corporation
+Renderer Name : GeForce2 MX/AGP/SSE
+Version : 1.4.0
+GLU Version : 1.2.2.0 Microsoft Corporation
+GLU Extensions : GL_EXT_bgra
+OpenGL Extensions :
+ - Le multitexturing est géré ...
+ - Le Vertex Buffer est géré ...
+ - Le Blending évolué est géré ...
+
+
+PopCorn a pris la main ...
+Loading of a MatFont (../media/font/verdana10g.PCF) ... done
+Appel de la fonction de fermeture
+Rendu des données de FPS :
+	- FPS instantanné : 0
+	- FPS minimum : 4294967295
+	- FPS maximum : 0

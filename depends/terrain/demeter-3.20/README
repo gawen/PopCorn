@@ -1,0 +1,118 @@
+Overview
+--------
+Demeter only *REQUIRES* OpenGL and GLU, but to get the most out of it
+you will also want GDAL, SDL, SDL_image, libxml2, and Open Scene Graph. Windows 
+users can simply download the DemeterWin32Dependencies package to get
+all of these libraries; others must install these libs manually (easily 
+done on UNIX systems.) See http://www.terrainengine.com for links to these 
+libraries. Without these extra libraries, you won't be able to use all of 
+Demeter's features and you won't be able to run the sample applications, etc.
+
+In order to run the sample applications, you will need to 
+download the sample data package called DemeterSampleData.tar.gz
+(this is a separate download from Demeter itself.) To 
+run the TerrainLattice sample you need to download the 
+TerrainLatticeSampleData.tar.gz file. All of the sample 
+applications require SDL, so you must either install SDL and 
+SDL_image on your system or, if you're on 
+Windows, download the DemeterWin32Dependencies 
+package (this is a separate download.) Some of the samples 
+also require GDAL and libxml2, which are both also included 
+in DemeterWin32Dependencies. See the "Dependencies" section 
+at http://www.terrainengine.com for details.
+
+See the "Build Instructions" section on http://www.terrainengine.com 
+for build instructions and documentation.
+
+Here are some snippets from the documentation for building:
+
+Building with Visual C++
+------------------------
+NOTE FOR VISUAL C++ 6 USERS: You MUST use STLPort if you use the
+Win32Dependencies package. See below for details.
+
+Demeter includes a workspace for Visual Studio 6 and a Solution for
+Visual Studio 2003 in the \VisualStudio directory of the 
+distribution. All of the sample applications require both the 
+sample data, available to download as DemeterSampleData.zip, and SDL.
+As explained in the Project Architecture section of this site, Demeter is 
+divided into the core library itself and a few optional Loaders. In the Visual 
+Studio workspace, the core library is a project called Demeter. The loaders 
+are projects called DemeterElevationLoader, DemeterTextureLoader, 
+GDALElevationLoader, and SDLTextureLoader. In addition to each of these projects, 
+the distribution also includes an optional library for using Demeter with 
+OpenSceneGraph called DemeterOSG and several sample projects. 
+
+All Demeter components are built as DLL's. All final binaries (DLL's for 
+Demeter components and EXE's for the sample applications) are emitted to 
+the \bin folder of the distribution. All import libraries are emitted to 
+the \lib folder of the distribution. All source for Demeter components are 
+in the \src folder. All source for the sample applications is in the \samples 
+folder. Notice that all Demeter components are linked against the 
+Multithreaded-DLL Visual C Runtime Library. Your applications MUST also use 
+this version of the runtime in order to use Demeter components.
+
+If you do not care about the optional loaders, OSG support, or the sample 
+applications, then you can simply build the Demeter project. This will create 
+\bin\Demeter.dll (or DemeterDebug.dll for the Debug configuration) and 
+\lib\Demeter.lib. Link your application with this library to use Demeter.
+
+All of the rest of the projects in the workspace require some of the 3rd party 
+libraries described in the Dependencies section of this site. If you have satisfied 
+all of the dependencies then simply do a Batch Build and build all of the projects 
+in the workspace. You may then run any of the sample applications in \bin.
+
+If you are using Visual C++ 6 and you are also using the pre-built
+Win32Dependencies package, then you MUST install STLPort to patch your
+compiler enviornment. This does not apply if you are using Visual Studio 2003
+or if you aren't using the Win32Dependencies package. If you don't do this, 
+then you will get linker errors. This is because the binaries in the 
+Win32Dependencies package were compiled with STLport. This was necessary 
+because Visual C++ 6 is BADLY, HORRIBLY non-compliant with C++ standards 
+(search Microsoft's knowledge base at msdn.microsoft.com for numerous 
+examples.) The single best option is to upgrade from this antiquated, 
+non-compliant platform to Visual Studio 2003. The second best option is 
+to install STLPort to bring Visual C++ 6 into complicance. You can get 
+STLPort at http://www.stlport.org. You should at some point evaluate how 
+long you are going to stay tethered to this obsolete compiler.
+
+Building in Unix/Linux
+----------------------
+For building on Unix-like systems, Demeter uses the standard GNU 
+autoconf/automake suite. Simply extract the package, switch to its
+directory and type:
+
+./configure
+make
+make install
+
+Configure will test your system to find out which 3rd party libraries are
+installed and will build as much Demeter functionality as possible based
+on those tests. For example, if OSG is installed on your system, then the
+DemeterOSG library will be built.
+
+WARNING: If you do not at least have SDL and SDL_image on your system then 
+none of the sample applications will be built. Demeter itself will still be 
+built and you can use it in your own applications, but you will 
+have no sample applications with which to test it.
+
+Configure uses default compiler flags that will certainly not be optimal
+for your system. Consider providing a better set of CXXFLAGS to the compiler
+when you run configure (by setting an environment variable called CXXFLAGS.)
+For example, running the following command on a Pentium 4 system with gcc 
+gives much better performance than the defaults:
+
+CXXFLAGS="-ffast-math -mmmx -mfpmath=sse,387 -msse -march=pentium4 -fomit-frame-pointer" ./configure
+
+Configure also enables you to choose whether Demeter is built as a shared or
+static library (it is built as a shared object by default), where binaries 
+are installed, and many other options.  See the file INSTALL for detailed 
+information about how to use configure.
+
+Building in Mac OS X
+--------------------
+OS X developers may choose to use the normal UNIX autoconf build system as
+described above or they may use the more traditional "Apple" approach
+as described in the document "Mac OS X Build Instructions.rtf" in the 
+distribution. This document was kindly written by Ian Baxter (ian@swarming.net).
+
